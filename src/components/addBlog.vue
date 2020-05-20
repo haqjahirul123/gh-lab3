@@ -25,7 +25,7 @@
             <button v-on:click.prevent="post" class="addBlog">Add Blog</button>
         </form>
         <div v-if="submitted">
-            <h3>Thanks for adding your post</h3>
+            <h3>Thanks for adding your post on this app</h3>
         </div>
         <div id="preview">
             <h3>Preview blog</h3>
