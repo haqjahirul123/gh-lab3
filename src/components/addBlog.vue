@@ -22,7 +22,7 @@
                 <option v-for="tag in tags" :key="tag">{{ tag }}</option>
             </select>
             <hr />
-            <button v-on:click.prevent="post">Add Blog</button>
+            <button v-on:click.prevent="post" class="addBlog">Add Blog</button>
         </form>
         <div v-if="submitted">
             <h3>Thanks for adding your post</h3>
@@ -106,5 +106,11 @@ h3{
 #checkboxes label{
     display: inline-block;
     margin-top: 0;
+}
+
+.addBlog{
+    width: 100%;
+    height: 2em;
+      background-color:cornflowerblue;
 }
 </style>
